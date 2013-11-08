@@ -1,5 +1,4 @@
 Pod::Spec.new do |s|
-  s.platform = :ios, "2.0", :osx, "10.6"
   s.name = "protobuf-c"
   s.version = "0.15"
   s.summary = "C bindings for Google's Protocol Buffers"
