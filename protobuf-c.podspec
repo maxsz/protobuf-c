@@ -10,4 +10,5 @@ Pod::Spec.new do |s|
   s.header_mappings_dir = "./"
   s.prefix_header_file = "config.h"
   s.requires_arc = false
+  s.xcconfig = { "GCC_WARN_64_TO_32_BIT_CONVERSION" => "NO" }
 end
