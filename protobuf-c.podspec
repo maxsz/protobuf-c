@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "protobuf-c"
-  s.version = "1.2.1"
+  s.version = "1.3.2"
   s.summary = "C bindings for Google's Protocol Buffers"
   s.authors = { "Dave Benson" => "" }
   s.source = { :git => "https://github.com/protobuf-c/protobuf-c.git", :tag => "v#{s.version}" }
